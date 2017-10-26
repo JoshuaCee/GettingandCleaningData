@@ -1,0 +1,199 @@
+Selected Features
+=================
+
+In this data set, 30 subjects each performed 6 activities.  Each subject is numbered as in
+the subject column, and their activities are given under the 'label' column.  These are:
+
+    (1) Walking
+    (2) Walking upstairs
+    (3) Walking downstairs
+    (4) Sitting
+    (5) Standing
+    (6) Laying
+
+Raw signals were recorded from an accelerometer and gyroscope in a waist-mounted
+Android-OS smartphone (Samsung Galaxy S II).  Those readings were used to
+calculate in the time and frequency domain (which in the variables are so named):
+
+Body and Gravity Acceleration in the x,y,z directions
+Linear and Angular Jerk in the x,y,z directions
+
+The mean and/or meanfrequency (weighted average of the frequency components
+to obtain a mean frequency) were applied to those quantities.  The variables
+starting with 'angle' were obtained by averaging the signals in a signal window
+sample.
+
+Subsequently, for each variable, the mean of the observations were calculated
+for each activity and each subject.  These are what the quantities represent in
+each row.
+
+The variables are:
+
+[1] "labels"
+[2] "subject"
+[3] "time_bodyacceleration_mean_x"
+[4] "time_bodyacceleration_mean_y"
+[5] "time_bodyacceleration_mean_z"
+[6] "time_bodyacceleration_std_x"
+[7] "time_bodyacceleration_std_y"
+[8] "time_bodyacceleration_std_z"
+[9] "time_gravityacceleration_mean_x"
+[10] "time_gravityacceleration_mean_y"
+[11] "time_gravityacceleration_mean_z"
+[12] "time_gravityacceleration_std_x"
+[13] "time_gravityacceleration_std_y"
+[14] "time_gravityacceleration_std_z"
+[15] "time_bodylinearjerk_mean_x"
+[16] "time_bodylinearjerk_mean_y"
+[17] "time_bodylinearjerk_mean_z"
+[18] "time_bodylinearjerk_std_x"
+[19] "time_bodylinearjerk_std_y"
+[20] "time_bodylinearjerk_std_z"
+[21] "time_bodygyroscope_mean_x"
+[22] "time_bodygyroscope_mean_y"
+[23] "time_bodygyroscope_mean_z"
+[24] "time_bodygyroscope_std_x"
+[25] "time_bodygyroscope_std_y"
+[26] "time_bodygyroscope_std_z"
+[27] "time_bodyangularjerk_mean_x"
+[28] "time_bodyangularjerk_mean_y"
+[29] "time_bodyangularjerk_mean_z"
+[30] "time_bodyangularjerk_std_x"
+[31] "time_bodyangularjerk_std_y"
+[32] "time_bodyangularjerk_std_z"
+[33] "time_bodyaccelerationmagnitude_mean"
+[34] "time_bodyaccelerationmagnitude_std"
+[35] "time_gravityaccelerationmagnitude_mean"
+[36] "time_gravityaccelerationmagnitude_std"
+[37] "time_bodylinearjerkmagnitude_mean"
+[38] "time_bodylinearjerkmagnitude_std"
+[39] "time_bodygyroscope_magnitude_mean"
+[40] "time_bodygyroscope_magnitude_std"
+[41] "time_bodyangularjerkmagnitude_mean"
+[42] "time_bodyangularjerkmagnitude_std"
+[43] "frequency_bodyacceleration_mean_x"
+[44] "frequency_bodyacceleration_mean_y"
+[45] "frequency_bodyacceleration_mean_z"
+[46] "frequency_bodyacceleration_std_x"
+[47] "frequency_bodyacceleration_std_y"
+[48] "frequency_bodyacceleration_std_z"
+[49] "frequency_bodyacceleration_meanfrequency_x"
+[50] "frequency_bodyacceleration_meanfrequency_y"
+[51] "frequency_bodyacceleration_meanfrequency_z"
+[52] "frequency_bodylinearjerk_mean_x"
+[53] "frequency_bodylinearjerk_mean_y"
+[54] "frequency_bodylinearjerk_mean_z"
+[55] "frequency_bodylinearjerk_std_x"
+[56] "frequency_bodylinearjerk_std_y"
+[57] "frequency_bodylinearjerk_std_z"
+[58] "frequency_bodylinearjerk_meanfrequency_x"
+[59] "frequency_bodylinearjerk_meanfrequency_y"
+[60] "frequency_bodylinearjerk_meanfrequency_z"
+[61] "frequency_bodygyroscope_mean_x"
+[62] "frequency_bodygyroscope_mean_y"
+[63] "frequency_bodygyroscope_mean_z"
+[64] "frequency_bodygyroscope_std_x"
+[65] "frequency_bodygyroscope_std_y"
+[66] "frequency_bodygyroscope_std_z"
+[67] "frequency_bodygyroscope_meanfrequency_x"
+[68] "frequency_bodygyroscope_meanfrequency_y"
+[69] "frequency_bodygyroscope_meanfrequency_z"
+[70] "frequency_bodyaccelerationmagnitude_mean"
+[71] "frequency_bodyaccelerationmagnitude_std"
+[72] "frequency_bodyaccelerationmagnitude_meanfrequency"
+[73] "frequency_bodylinearjerkmagnitude_mean"
+[74] "frequency_bodylinearjerkmagnitude_std"
+[75] "frequency_bodylinearjerkmagnitude_meanfrequency"
+[76] "frequency_bodygyroscope_magnitude_mean"
+[77] "frequency_bodygyroscope_magnitude_std"
+[78] "frequency_bodygyroscope_magnitude_meanfrequency"
+[79] "frequency_bodyangularjerkmagnitude_mean"
+[80] "frequency_bodyangularjerkmagnitude_std"
+[81] "frequency_bodyangularjerkmagnitude_meanfrequency"
+[82] "angle_tbodyaccelerationmeangravit_y"
+[83] "angle_tbodylinearjerkmean_gravitymean"
+[84] "angle_tbodygyroscope_mean_gravitymean"
+[85] "angle_tbodyangularjerkmean_gravitymean"
+[86] "angle_x_gravitymean"
+[87] "angle_y_gravitymean"
+[88] "angle_z_gravitymean"
+
+
+====================================================
+Technical details below
+====================================================
+
+
+==================================================================
+Human Activity Recognition Using Smartphones Dataset
+Version 1.0
+==================================================================
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+==================================================================
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details.
+
+================
+Feature Selection
+=================
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
+
+These signals were used to estimate variables of the feature vector for each pattern:
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are:
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values.
+iqr(): Interquartile range
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal
+kurtosis(): kurtosis of the frequency domain signal
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
